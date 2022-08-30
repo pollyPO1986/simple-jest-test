@@ -1,0 +1,14 @@
+{
+  "name": "jest-test",
+  "version": "1.0.0",
+  "description": "interview",
+  "main": "index.js",
+  "author": "PollyPO Lee",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}

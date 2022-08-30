@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    image: node16-jest
+    expose:
+      - 8080
+    ports:
+      - ${DOCKER_VUE_8080}:8080
+    volumes:
+      # - ./:/app
+      - .:/app
+    stdin_open: true
+    tty: true
